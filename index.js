@@ -2,6 +2,7 @@ const Koa = require('koa');
 const koaBodyParser = require('koa-body-parser');
 const fs = require('fs')
 const Router = require('koa-router')
+const open = require('open')
 
 const app = new Koa()
 const router = new Router({ prefix: '/api' })
@@ -15,8 +16,9 @@ router.get('/', async(ctx, next) => {
 app.use(router.routes())
     .use(router.allowedMethods())
 
-app.listen(3000, () => {
-    console.log('koa is runinng on port 3000')
+app.listen(2999, () => {
+    console.log('koa is runinng on port 2999')
+    open('http://localhost:2999')
 })
 
 const render = page => {
