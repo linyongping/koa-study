@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
     "precommit": "lint-staged",
     "prepush": "git pull"
   },
@@ -27,7 +28,7 @@
   "lint-staged": {
     "**/*{js,jsx,css,less}": [
       "prettier --trailing-comma es5 --single-quote --write",
-      "git add"
+      "git add ."
     ]
   }
 }
