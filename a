@@ -1,0 +1,48 @@
+[33mcommit c75fbff0fb1f99ae62118b6033b8cbe214197d3a[m
+Author: linyonging <linyongping@outlook.com>
+Date:   Fri Jan 26 17:03:13 2018 +0800
+
+    add huksy git hooks and prettier for code formatter
+
+[33mcommit 42daa46b293e16aaebc620d08f8e65e8251d09ff[m
+Author: linyongping <linyonging@outlook.com>
+Date:   Thu Jan 4 21:59:30 2018 +0800
+
+    start views study
+
+[33mcommit f495ef10f3a889b91ac3cae4c8125bae63bb0493[m
+Author: linyonging <linyongping@outlook.com>
+Date:   Thu Jan 4 09:52:06 2018 +0800
+
+    add open to auto open browser
+
+[33mcommit 77679611846be06af563ddd641c3acc8b506f831[m
+Author: linyongping <linyonging@outlook.com>
+Date:   Wed Jan 3 23:37:38 2018 +0800
+
+    use koa router
+
+[33mcommit eca5f65407cd7e74e903a564f7ac80ef5f855df8[m
+Author: linyongping <linyonging@outlook.com>
+Date:   Wed Jan 3 22:51:45 2018 +0800
+
+    koa route start
+
+[33mcommit b2e2ee9e25b1e7e3c00f4924a2dcd347d9ddcc32[m
+Merge: 8a1c79c d63ecdf
+Author: Sean <linyongping@outlook.com>
+Date:   Tue Jan 2 23:57:30 2018 +0800
+
+    Merge branch 'master' of github.com:linyongping/koa-study
+
+[33mcommit d63ecdff85b67870edfd7b8d7f4ca494ea8b0c44[m
+Author: linyongping <linyongping@outlook.com>
+Date:   Tue Jan 2 23:55:13 2018 +0800
+
+    Initial commit
+
+[33mcommit 8a1c79c960dcab86ea46d02bf8e75579732c1d89[m
+Author: Sean <linyongping@outlook.com>
+Date:   Tue Jan 2 23:50:43 2018 +0800
+
+    first commit
