@@ -4,9 +4,9 @@ const fs = require('fs');
 const Router = require('koa-router');
 const open = require('open');
 const { result } = require('./src/nodeTest');
+const { factorial } = require('./src/copy');
 
 const app = new Koa();
-
 let home = new Router();
 home
   .get('/ai', async ctx => {
@@ -35,12 +35,22 @@ page
   })
   .get('/cpu', async ctx => {
     ctx.body = result;
+  })
+  .get('/jc', async ctx => {
+    const { number } = ctx.request.query;
+    if (number) {
+      ctx.body = factorial(number);
+      return;
+    }
+    console.log(ctx);
+    ctx.body = 'number is not defined';
   });
 
 const router = new Router();
 router.use('/home', home.routes(), home.allowedMethods());
 router.use('/page', page.routes(), page.allowedMethods());
 
+// app.use(koaBodyParser())
 app.use(router.routes()).use(router.allowedMethods());
 
 app.listen(2999, () => {

@@ -6,13 +6,15 @@ const pathname = '../package.json';
 let dupBin = new Buffer(bin.length);
 bin.copy(dupBin);
 const factorial = n => {
-  console.log('n', n);
   if (n === 1) {
     return n;
   } else {
     return n * factorial(n - 1);
   }
 };
-
 const result = factorial(9);
 console.log('bin', result);
+
+module.exports = {
+  factorial,
+};
