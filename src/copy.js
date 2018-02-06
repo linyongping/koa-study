@@ -15,5 +15,4 @@ const factorial = n => {
 };
 
 const result = factorial(9);
-
 console.log('bin', result);
