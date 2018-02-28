@@ -1,0 +1,25 @@
+diff --git a/src/nodeTest.js b/src/nodeTest.js
+index 1cc45e6..d3b6bc3 100644
+--- a/src/nodeTest.js
++++ b/src/nodeTest.js
+@@ -1,6 +1,5 @@
+ const os = require('os');
+ const Cfonts = require('cfonts');
+-
+ const result = os.cpus();
+ 
+ module.exports = {
+diff --git a/src/testPath.txt b/src/testPath.txt
+index 54c0da5..110ae67 100644
+--- a/src/testPath.txt
++++ b/src/testPath.txt
+@@ -1,5 +1,7 @@
+ this is first commit to path
+ 
+-this is line 1
++origin this is line 1
+ 
+-this is line 2
++origin this is line 2
++
++add line 3
